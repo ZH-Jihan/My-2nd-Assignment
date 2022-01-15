@@ -225,3 +225,55 @@ footer{
 .footer-icon i{
     padding: 0px 5px;
 }
+/*--------------------
+    Media Queries
+------------------- */
+/* 
+    MQ For Mobile Devices 
+    */
+
+@media only screen and (max-width:688px){
+    
+    .conteinar{
+        width: 100%;
+    }
+    .headercontent{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .headerinfo{
+        width: 100%;
+        text-align: center;
+    }
+    .headerimg{
+        width: auto;
+        height: auto;
+    }
+    .headerimg img{
+      width: 100%;
+    }
+    .logoborder{
+        width: fit-content;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        
+    }
+    .allproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .popular-product{
+        margin-top: 0px;
+    }
+    .prodcast-detail{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .prodcast-detail h2{
+        color: black;
+    }
+}
