@@ -207,9 +207,6 @@ footer{
     text-align: center;
     padding-top: 50px;
 }
-.footerinfo{
-
-}
 .footerinfo h1{
     font-size: 30px;
     padding: 8px 0px;
@@ -233,7 +230,12 @@ footer{
     */
 
 @media only screen and (max-width:688px){
-    
+    .logoborder .popular-product .allproducts .prodcast-detail .footer-conteinar{
+        /* visibility: hidden; */
+    }
+    body{
+        width: 100%;
+    }
     .conteinar{
         width: 100%;
     }
@@ -273,7 +275,7 @@ footer{
         width: 100%;
         margin-top: 0px;
     }
-    .prodcast-detail h2{
-        color: black;
+    footer{
+        height: max-content;
     }
 }
